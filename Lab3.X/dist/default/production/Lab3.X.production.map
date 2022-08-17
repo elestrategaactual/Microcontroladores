@@ -1,0 +1,71 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Wed Apr 20 12:31:29 2022
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000004
+                   .org_2       code   0x000008    program   0x000004
+                   .org_3       code   0x000018    program   0x000096
+    .config_300000_LAB3.O    romdata   0x300000    program   0x000001
+    .config_300001_LAB3.O    romdata   0x300001    program   0x000001
+    .config_300002_LAB3.O    romdata   0x300002    program   0x000001
+    .config_300003_LAB3.O    romdata   0x300003    program   0x000001
+    .config_300005_LAB3.O    romdata   0x300005    program   0x000001
+    .config_300006_LAB3.O    romdata   0x300006    program   0x000001
+    .config_300008_LAB3.O    romdata   0x300008    program   0x000001
+    .config_300009_LAB3.O    romdata   0x300009    program   0x000001
+    .config_30000A_LAB3.O    romdata   0x30000a    program   0x000001
+    .config_30000B_LAB3.O    romdata   0x30000b    program   0x000001
+    .config_30000C_LAB3.O    romdata   0x30000c    program   0x000001
+    .config_30000D_LAB3.O    romdata   0x30000d    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000003      
+                            0x000008    0x00000b      
+                            0x000018    0x0000ad      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            170 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                      ISR   0x000084    program     static C:\Users\ivanm\MPLABXProjects\Lab3.X\Lab3.asm
+                     ISR2   0x000096    program     static C:\Users\ivanm\MPLABXProjects\Lab3.X\Lab3.asm
+                   Inicio   0x00001c    program     static C:\Users\ivanm\MPLABXProjects\Lab3.X\Lab3.asm
+                     Menu   0x000046    program     static C:\Users\ivanm\MPLABXProjects\Lab3.X\Lab3.asm
+                 Reinicio   0x00008a    program     static C:\Users\ivanm\MPLABXProjects\Lab3.X\Lab3.asm
+              decremental   0x000060    program     static C:\Users\ivanm\MPLABXProjects\Lab3.X\Lab3.asm
+                    delay   0x0000a0    program     static C:\Users\ivanm\MPLABXProjects\Lab3.X\Lab3.asm
+              incremental   0x000054    program     static C:\Users\ivanm\MPLABXProjects\Lab3.X\Lab3.asm
+           inicioret200ms   0x00006e    program     static C:\Users\ivanm\MPLABXProjects\Lab3.X\Lab3.asm
+                 ret200ms   0x000076    program     static C:\Users\ivanm\MPLABXProjects\Lab3.X\Lab3.asm
+               startdelay   0x00009c    program     static C:\Users\ivanm\MPLABXProjects\Lab3.X\Lab3.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   Inicio   0x00001c    program     static C:\Users\ivanm\MPLABXProjects\Lab3.X\Lab3.asm
+                     Menu   0x000046    program     static C:\Users\ivanm\MPLABXProjects\Lab3.X\Lab3.asm
+              incremental   0x000054    program     static C:\Users\ivanm\MPLABXProjects\Lab3.X\Lab3.asm
+              decremental   0x000060    program     static C:\Users\ivanm\MPLABXProjects\Lab3.X\Lab3.asm
+           inicioret200ms   0x00006e    program     static C:\Users\ivanm\MPLABXProjects\Lab3.X\Lab3.asm
+                 ret200ms   0x000076    program     static C:\Users\ivanm\MPLABXProjects\Lab3.X\Lab3.asm
+                      ISR   0x000084    program     static C:\Users\ivanm\MPLABXProjects\Lab3.X\Lab3.asm
+                 Reinicio   0x00008a    program     static C:\Users\ivanm\MPLABXProjects\Lab3.X\Lab3.asm
+                     ISR2   0x000096    program     static C:\Users\ivanm\MPLABXProjects\Lab3.X\Lab3.asm
+               startdelay   0x00009c    program     static C:\Users\ivanm\MPLABXProjects\Lab3.X\Lab3.asm
+                    delay   0x0000a0    program     static C:\Users\ivanm\MPLABXProjects\Lab3.X\Lab3.asm
+
+
