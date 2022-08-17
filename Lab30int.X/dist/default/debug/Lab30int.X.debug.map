@@ -1,0 +1,62 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Wed Apr 20 15:22:04 2022
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000088
+.config_300000_LAB30INT.O    romdata   0x300000    program   0x000001
+.config_300001_LAB30INT.O    romdata   0x300001    program   0x000001
+.config_300002_LAB30INT.O    romdata   0x300002    program   0x000001
+.config_300003_LAB30INT.O    romdata   0x300003    program   0x000001
+.config_300005_LAB30INT.O    romdata   0x300005    program   0x000001
+.config_300006_LAB30INT.O    romdata   0x300006    program   0x000001
+.config_300008_LAB30INT.O    romdata   0x300008    program   0x000001
+.config_300009_LAB30INT.O    romdata   0x300009    program   0x000001
+.config_30000A_LAB30INT.O    romdata   0x30000a    program   0x000001
+.config_30000B_LAB30INT.O    romdata   0x30000b    program   0x000001
+.config_30000C_LAB30INT.O    romdata   0x30000c    program   0x000001
+.config_30000D_LAB30INT.O    romdata   0x30000d    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000087      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            148 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+            AuxRetardo200   0x000052    program     static C:\Users\ivanm\MPLABXProjects\Lab30int.X\Lab30int.asm
+                   Inicio   0x000000    program     static C:\Users\ivanm\MPLABXProjects\Lab30int.X\Lab30int.asm
+                     Menu   0x000012    program     static C:\Users\ivanm\MPLABXProjects\Lab30int.X\Lab30int.asm
+                 Reinicio   0x00006e    program     static C:\Users\ivanm\MPLABXProjects\Lab30int.X\Lab30int.asm
+               Retardo200   0x000046    program     static C:\Users\ivanm\MPLABXProjects\Lab30int.X\Lab30int.asm
+              decremental   0x000038    program     static C:\Users\ivanm\MPLABXProjects\Lab30int.X\Lab30int.asm
+                    delay   0x00007c    program     static C:\Users\ivanm\MPLABXProjects\Lab30int.X\Lab30int.asm
+              incremental   0x00002c    program     static C:\Users\ivanm\MPLABXProjects\Lab30int.X\Lab30int.asm
+               startdelay   0x000078    program     static C:\Users\ivanm\MPLABXProjects\Lab30int.X\Lab30int.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   Inicio   0x000000    program     static C:\Users\ivanm\MPLABXProjects\Lab30int.X\Lab30int.asm
+                     Menu   0x000012    program     static C:\Users\ivanm\MPLABXProjects\Lab30int.X\Lab30int.asm
+              incremental   0x00002c    program     static C:\Users\ivanm\MPLABXProjects\Lab30int.X\Lab30int.asm
+              decremental   0x000038    program     static C:\Users\ivanm\MPLABXProjects\Lab30int.X\Lab30int.asm
+               Retardo200   0x000046    program     static C:\Users\ivanm\MPLABXProjects\Lab30int.X\Lab30int.asm
+            AuxRetardo200   0x000052    program     static C:\Users\ivanm\MPLABXProjects\Lab30int.X\Lab30int.asm
+                 Reinicio   0x00006e    program     static C:\Users\ivanm\MPLABXProjects\Lab30int.X\Lab30int.asm
+               startdelay   0x000078    program     static C:\Users\ivanm\MPLABXProjects\Lab30int.X\Lab30int.asm
+                    delay   0x00007c    program     static C:\Users\ivanm\MPLABXProjects\Lab30int.X\Lab30int.asm
+
+
